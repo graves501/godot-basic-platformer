@@ -12,3 +12,7 @@ tile_data = PoolIntArray( 131079, 0, 5, 196613, 0, 1, 196614, 0, 65536, 196615, 
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 62.5772, 276.156 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true
+smoothing_enabled = true
